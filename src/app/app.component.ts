@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {FlaskConnectService} from './Services/flask-connect.service'
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -15,10 +16,7 @@ export class AppComponent {
 
   ngOnInit()
   {
-    this.api.getMarks().subscribe((data)=>{
-      this.npresent = true;
-      this.fetcheddata = data;
-    })
+   
   }
 
 }

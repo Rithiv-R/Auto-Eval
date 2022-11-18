@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "autoeval-7383e": {
+      "hosting": {
+        "autoeval": [
+          "autoeval-7383e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "autoeval-7383e"
+  }
+}

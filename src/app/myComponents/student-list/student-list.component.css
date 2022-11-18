@@ -1,0 +1,24 @@
+.con1{
+    margin: 10px;
+}
+.card{
+    background-color: rgba(85, 255, 255, 0.275);
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.piv{
+    padding: 3px;
+}
+
+.names{
+    padding-left: 30px;
+
+}

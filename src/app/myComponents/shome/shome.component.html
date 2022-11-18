@@ -1,0 +1,29 @@
+<div class="split left">
+    <app-student-list [list]="list"></app-student-list>
+    <div class="centered">
+        <div class="main">
+            <div class="card" (click)="ontick()">
+                <div class="container">
+                  <img src="https://thumbs.dreamstime.com/b/student-feel-scared-exam-portrait-female-biting-her-nail-nervous-to-face-52514853.jpg" alt="Avatar" style="width:100%">
+                  <h4><b>EXAM</b></h4> 
+                </div>
+              </div>
+              <div class="card">
+                <div class="container" (click)="onsignout()">
+                  <img src="./../../../assets/images/signout.jpg" alt="Avatar" style="width:80%">
+                  <h4><b>SIGN-OUT</b></h4> 
+                </div>
+              </div>
+        </div>  
+    </div>
+</div>
+<div>
+    <div class="split right">
+        <div>
+            <div *ngIf="tick">
+                <app-form></app-form>
+            </div>
+        </div>
+    </div>
+</div>
+  

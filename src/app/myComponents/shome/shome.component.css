@@ -1,0 +1,51 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.main{
+    display: inline-flex;
+    margin: 10px;
+}
+  
+  .left {
+    left: 0;
+    background-color: #FA8072;
+    Overflow-y:scroll;
+  }
+  
+  .right {
+    right: 0;
+    background-color: whitesmoke;
+  }
+  
+  .centered {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card {
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 30px;
+  }

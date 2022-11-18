@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [];
+import { SelectionComponent} from './myComponents/selection/selection.component';
+import { ShomeComponent } from './myComponents/shome/shome.component';
+import { StartComponent } from './myComponents/start/start.component';
+const routes: Routes = [
+  {path:'',redirectTo:'start',pathMatch:'full'},
+  {path:'exam',component:ShomeComponent},
+  {path:'marks',component:SelectionComponent},
+  {path:'start',component:StartComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

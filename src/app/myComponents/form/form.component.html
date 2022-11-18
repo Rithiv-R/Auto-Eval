@@ -1,0 +1,38 @@
+<div class="con1">
+    <div class="card">
+        <div class="head">
+            <h1>Answer the following questions:</h1>
+        </div>
+        <div class="paper">
+            <form>
+                <div class="all">
+                    <div class="question">
+                        <label class="ques">Q1 {{set['que1']}}</label>
+                        <textarea name="answer1"  [(ngModel)]='q1' appTextareaAutosize class="answer" cols="80" rows="40" placeholder="Answer here...."></textarea>
+                    </div>
+                    <div class="question">
+                        <label class="ques">Q2 {{set['que2']}}</label>
+                        <textarea name="answer1" [(ngModel)]='q2' appTextareaAutosize class="answer" cols="80" rows="40" placeholder="Answer here...."></textarea>
+                    </div>
+                    <div class="question">
+                        <label class="ques">Q3 {{set['que3']}}</label>
+                        <textarea name="answer1"  [(ngModel)]='q3' appTextareaAutosize class="answer" cols="80" rows="40" placeholder="Answer here...."></textarea>
+                    </div>
+                    <div class="question">
+                        <label class="ques">Q4 {{set['que4']}}</label>
+                        <textarea name="answer1"  [(ngModel)]='q4' appTextareaAutosize class="answer" cols="80" rows="40" placeholder="Answer here...."></textarea>
+                    </div>
+                    <div class="question">
+                        <label class="ques">Q5 {{set['que5']}}</label>
+                        <textarea name="answer1" [(ngModel)]='q5' appTextareaAutosize class="answer" cols="80" rows="40" placeholder="Answer here...."></textarea>
+                    </div>
+                    <div class="button">
+                        <button (click)="submit()" type="submit">Submit</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+</div>

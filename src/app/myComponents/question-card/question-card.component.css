@@ -1,0 +1,51 @@
+.con1{
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(85, 255, 255, 0.275);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.text{
+    width: 80%;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #A9DFBF  ;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.cardin{
+    color: #FA8072;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50px;
+  }
+  
+  .cardin:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerin {
+    padding: 2px 16px;
+  }
+
+.question{
+    display: inline-flex;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.answer{
+  padding-top: 30px;
+  
+}
